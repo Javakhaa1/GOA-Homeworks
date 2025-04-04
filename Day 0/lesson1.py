@@ -1,5 +1,5 @@
 from turtle import *
-color("green")
+color("firebrick")
 width(5)
 speed(30)
 
@@ -17,7 +17,7 @@ end_fill()
 
 forward(75)
 
-color("red")
+color("black")
 begin_fill()
 left(90)
 forward(75)
@@ -94,17 +94,27 @@ left(90)
 forward(25)
 
 penup()
-goto(120, 35)
+goto(115, 35)
 pendown()
-color("black")
+color("firebrick")
 
 left(90)
-forward(5)
+circle(3)
+
+color("black")
+penup()
+goto(140, 240)
+pendown()
 
 
-
-
-
+begin_fill()
+right(90)
+forward(80)
+right(90)
+forward(40)
+right(90)
+forward(100)
+end_fill()
 
 
 
